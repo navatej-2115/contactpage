@@ -1,4 +1,4 @@
-/* Contact Page Specific Styles */
+/* this page tell you that it can be modified as contact page*/
 .contact-hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     height: 400px;
@@ -86,15 +86,8 @@
 
 .info-item p {
     margin-bottom: 0;
-    color: #777;
-}
-
-.contact-form {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
+    color: #777
+    }
 
 .contact-form h3 {
     font-size: 24px;

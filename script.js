@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Form submission handling
     const contactForm = document.getElementById('contactForm');
-    
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
             
             // Get form values
             const name = document.getElementById('name').value;
@@ -40,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Mobile menu toggle (reuse from main script if needed)
+    // Mobile menu is corrently working on it make sure to use it.
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
     const authButtons = document.querySelector('.auth-buttons');
